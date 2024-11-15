@@ -4,9 +4,12 @@
    <name>Automation-withKatalon</name>
    <tag></tag>
    <UUID>0f04261d-a871-49af-aab0-aa636fc40ce1</UUID>
-   <freeLicense>false</freeLicense>
+   <freeLicense>true</freeLicense>
    <migratedVersion>5.9.0</migratedVersion>
+   <modifiedEdition>FREE</modifiedEdition>
+   <modifiedVersion>10.0.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+   <projectFileLocation>D:\Office\Katalon Project\Automation-withKatalon\Automation-withKatalon.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

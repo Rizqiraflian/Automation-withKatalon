@@ -21,6 +21,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+      <initValue>'web/index.php/pim/viewEmployeeList'</initValue>
+      <name>pimUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
       <initValue>0</initValue>
       <name>initialNumber</name>
    </GlobalVariableEntity>
@@ -63,5 +68,15 @@
       <description></description>
       <initValue>''</initValue>
       <name>dynamicPassword</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Required'</initValue>
+      <name>errorMessage_mandatory</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Invalid credentials'</initValue>
+      <name>errorMessage_invalidCredentials</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
