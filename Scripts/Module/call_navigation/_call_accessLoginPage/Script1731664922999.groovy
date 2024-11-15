@@ -17,5 +17,23 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.acceptAlert()
+WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
+WebUI.navigateToUrl(GlobalVariable.mainUrl)
+
+// ===== Assert - Verify it's redirect to the correct login page URL =====
+while (GlobalVariable.initialNumber < 10) {
+    if (GlobalVariable.initialNumber < 9) {
+        if (!(WebUI.verifyMatch(WebUI.getUrl(), ('https://' + GlobalVariable.mainUrl) + GlobalVariable.loginUrl, true, FailureHandling.OPTIONAL))) {
+            WebUI.delay(GlobalVariable.delayLong)
+
+            (GlobalVariable.initialNumber)++
+        } else {
+            break
+        }
+    } else {
+        WebUI.verifyMatch(WebUI.getUrl(), ('https://' + GlobalVariable.mainUrl) + GlobalVariable.loginUrl, true, FailureHandling.STOP_ON_FAILURE)
+    }
+}
