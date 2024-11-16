@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>_call_accessLoginPage</name>
+   <name>_call_nav_accessLoginPage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>377e17d9-d31f-4757-ab32-a610120e562e</testCaseGuid>
 </TestCaseEntity>

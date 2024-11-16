@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 
 // ===== Call Test Cas - Navigate to login page =====
-WebUI.callTestCase(findTestCase('Module/call_navigation/_call_accessLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Module/call_navigation/_call_nav_accessLoginPage'), [:], FailureHandling.STOP_ON_FAILURE)
 
 // ===== populate the valid credentials =====
 WebUI.waitForElementPresent(findTestObject('pages_login/lgn_inputUsername'), GlobalVariable.delayShort)

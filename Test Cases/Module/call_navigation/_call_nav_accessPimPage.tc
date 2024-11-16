@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>_call_accessPimPage</name>
+   <name>_call_nav_accessPimPage</name>
    <tag></tag>
    <comment></comment>
+   <recordOption>OTHER</recordOption>
    <testCaseGuid>aeaa30c3-2ff3-4974-ba86-924024eb6ae6</testCaseGuid>
 </TestCaseEntity>

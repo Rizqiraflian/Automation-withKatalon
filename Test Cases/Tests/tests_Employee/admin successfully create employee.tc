@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>admin successfully create employee</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d8c5a12e-04f0-4a87-bf7d-eb296b19eff2</testCaseGuid>
+</TestCaseEntity>

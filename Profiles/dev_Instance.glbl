@@ -21,7 +21,12 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'web/index.php/pim/viewEmployeeList'</initValue>
+      <initValue>'/web/index.php/pim/addEmployee'</initValue>
+      <name>formCreateEmployeeUrl</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'/web/index.php/pim/viewEmployeeList'</initValue>
       <name>pimUrl</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -61,16 +66,6 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>dynamicUsername</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
-      <initValue>''</initValue>
-      <name>dynamicPassword</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>'Required'</initValue>
       <name>errorMessage_mandatory</name>
    </GlobalVariableEntity>
@@ -78,5 +73,35 @@
       <description></description>
       <initValue>'Invalid credentials'</initValue>
       <name>errorMessage_invalidCredentials</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>empl_dynamicFirstName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>empl_dynamicMiddleName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>empl_dynamicLastName</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>empl_dynamicEmployeeId</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>empl_dynamicUsername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>empl_dynamicPersonalDetailUrl</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

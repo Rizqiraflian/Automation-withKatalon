@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>_call_empl_assertPersonalDetail</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>5b458f5e-42f8-42a9-a196-48da3f009d8c</testCaseGuid>
+</TestCaseEntity>
