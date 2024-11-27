@@ -47,21 +47,29 @@ while (GlobalVariable.initialNumber < 10) {
 // ===== Call Test Case - populate the create employee form =====
 WebUI.callTestCase(findTestCase('Module/call_function/_call_functionForEmployee/_call_empl_formAddEmployee'), [:], FailureHandling.STOP_ON_FAILURE)
 
+// ===== Upload Image =====
+String filePath = System.getProperty("user.dir") + "/Data Files/Images/empl_image.jpg"
+
+// Test Object for the file input field
+TestObject fileInput = findTestObject('Object Repository/pages_employee/_form_addEmployee/form_uploadFile')
+
+// Upload the file
+WebUI.sendKeys(fileInput, filePath)
+
 WebUI.click(findTestObject('pages_employee/_form_addEmployee/form_btnSave'))
 
 // ===== Assert - Verify it's redirect to the correct user personal detail page =====
 while (GlobalVariable.initialNumber < 10) {
-	if (GlobalVariable.initialNumber < 9) {
-		if (!(WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.empl_dynamicPersonalDetailUrl, true, FailureHandling.OPTIONAL))) {
-			WebUI.delay(GlobalVariable.delayLong)
+    if (GlobalVariable.initialNumber < 9) {
+        if (!(WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.empl_dynamicPersonalDetailUrl, true, FailureHandling.OPTIONAL))) {
+            WebUI.delay(GlobalVariable.delayLong)
 
-			(GlobalVariable.initialNumber)++
-		} else {
-			break
-		}
-	} else {
-		WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.empl_dynamicPersonalDetailUrl, true, FailureHandling.STOP_ON_FAILURE)
-	}
+            (GlobalVariable.initialNumber)++
+        } else {
+            break
+        }
+    } else {
+        WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.empl_dynamicPersonalDetailUrl, true, FailureHandling.STOP_ON_FAILURE)
+    }
 }
-
 

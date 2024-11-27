@@ -77,6 +77,11 @@
    <GlobalVariableEntity>
       <description></description>
       <initValue>''</initValue>
+      <name>dynamicFilePath</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
       <name>empl_dynamicFirstName</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
